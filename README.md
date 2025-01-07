@@ -4,6 +4,6 @@
 Clone this repository and install it via pip:
 
 ```bash
-git clone https://github.com/your_username/myproject.git
-cd myproject
+git clone https://github.com/yurouwang-rosie/InterVelo.git
+cd InterVelo
 pip install .
