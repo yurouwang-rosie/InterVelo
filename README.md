@@ -19,7 +19,6 @@ import numpy as np
 import random
 import torch
 from scvelo.preprocessing.moments import get_moments
-import gc
 
 from InterVelo.train import train, Constants
 from InterVelo.simulation2 import simulation
