@@ -50,7 +50,7 @@ adata.var["gamma"]=gamma
 scv.pp.filter_and_normalize(adata, min_shared_counts=20, n_top_genes=2000)
 scv.pp.normalize_per_cell(adata)
 scv.pp.log1p(adata)
-scv.pp.moments(adata, n_pcs=30, n_neighbors=30) ##30
+scv.pp.moments(adata, n_pcs=30, n_neighbors=30) 
 adata.layers["Ma"]=get_moments(adata, layer="atac")
 adata = preprocess_data(adata, layers=["Ma","Ms","Mu"], filter_on_r2=False)
 #spliced = csr_matrix(adata.layers["spliced"]).astype(np.float32).A
